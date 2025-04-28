@@ -1,0 +1,5 @@
+nome, idade, estudante
+victor, 19, true
+hugo, 19, true
+gustavo, 24, false
+fernanda, 29, false
