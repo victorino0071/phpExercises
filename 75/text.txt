@@ -1,0 +1,15 @@
+61. Crie um arquivo de texto e escreva nele.
+62. Leia o conteúdo de um arquivo e exiba na tela.
+63. Adicione conteúdo a um arquivo existente sem sobrescrever.
+64. Verifique se um arquivo existe antes de tentar abri-lo.
+65. Copie um arquivo para outro diretório.
+66. Renomeie um arquivo existente.
+67. Delete um arquivo do sistema.
+68. Leia um arquivo CSV e processe seus dados.
+69. Crie um contador de visitas usando arquivos.
+70. Liste todos os arquivos de um diretório.
+71. Verifique o tamanho de um arquivo.
+72. Crie um sistema simples de upload de arquivos.
+73. Valide o tipo e tamanho de um arquivo antes do upload.
+74. Crie um diretório se ele não existir.
+75. Leia um arquivo linha por linha.

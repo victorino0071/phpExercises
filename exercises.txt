@@ -1,0 +1,192 @@
+# Exercícios Absurdos de PHP para Praticar Tudo
+
+Vou te fornecer uma quantidade absurda de exercícios divididos por tópicos. Prepare-se para muitas horas de prática!
+
+## 1. Sintaxe Básica do PHP
+
+### Variáveis e Tipos de Dados
+1. Declare variáveis representando: um nome, uma idade, uma altura, se é estudante ou não, e um array de hobbies.
+2. Converta uma string "123" para inteiro e um inteiro 456 para string.
+3. Verifique o tipo de 5 valores diferentes usando var_dump().
+4. Crie uma variável nula e outra não definida, verifique a diferença entre elas.
+5. Use constantes para definir PI, velocidade da luz e gravidade da Terra.
+
+### Operadores
+6. Faça operações matemáticas básicas (+, -, *, /, %) com dois números.
+7. Compare dois números com todos os operadores de comparação.
+8. Use operadores de incremento (pré e pós) em uma variável.
+9. Verifique condições combinadas com operadores lógicos (&&, ||, !).
+10. Use o operador ternário para verificar se um número é par ou ímpar.
+
+### Estruturas de Controle
+11. Crie uma condição if-else que verifica se uma pessoa pode votar.
+12. Use switch-case para exibir o dia da semana baseado em um número (1-7).
+13. Faça um loop for que exiba números pares de 0 a 100.
+14. Use while para calcular o fatorial de um número.
+15. Use do-while para pedir input até que o usuário digite "sair".
+16. Crie um loop foreach para exibir todos os elementos de um array.
+17. Use break para sair de um loop quando encontrar o número 5.
+18. Use continue para pular números divisíveis por 3 em um loop.
+19. Implemente um sistema de login básico com if-else.
+20. Crie um menu de opções usando switch-case.
+
+## 2. Funções
+
+21. Crie uma função que soma dois números e retorna o resultado.
+22. Faça uma função que verifica se um número é primo.
+23. Implemente uma função com parâmetro padrão.
+24. Crie uma função que aceita número variável de argumentos.
+25. Demonstre a diferença entre passagem por valor e por referência.
+26. Implemente uma função recursiva para calcular Fibonacci.
+27. Crie funções com escopo global e local, mostrando a diferença.
+28. Faça uma função que retorna outra função (closure).
+29. Implemente callback functions com array_map e array_filter.
+30. Crie uma função que lança uma exceção para números negativos.
+
+## 3. Arrays
+
+31. Crie um array indexado e exiba todos os elementos.
+32. Implemente um array associativo para representar uma pessoa.
+33. Adicione e remova elementos de um array usando várias funções.
+34. Ordene um array de números e outro de strings.
+35. Combine dois arrays em um único array.
+36. Use array_map para aplicar uma função a todos os elementos.
+37. Filtre um array mantendo apenas números pares.
+38. Reduza um array para calcular a soma de seus elementos.
+39. Verifique se uma chave existe em um array associativo.
+40. Divida um array em pedaços usando array_chunk.
+41. Inverta a ordem dos elementos de um array.
+42. Busque um valor em um array e retorne sua chave.
+43. Remova valores duplicados de um array.
+44. Calcule a diferença entre dois arrays.
+45. Combine arrays usando array_merge e o operador +.
+
+## 4. Manipulação de Strings
+
+46. Concatene duas strings de três formas diferentes.
+47. Calcule o comprimento de uma string.
+48. Converta uma string para maiúsculas e minúsculas.
+49. Substitua partes de uma string usando str_replace.
+50. Divida uma string em um array usando explode.
+51. Junte um array em uma string usando implode.
+52. Extraia parte de uma string usando substr.
+53. Remova espaços em branco do início e fim de uma string.
+54. Verifique se uma string contém outra string.
+55. Formate um número com casas decimais usando number_format.
+56. Gere um hash MD5 e SHA1 de uma string.
+57. Codifique e decodifique strings em base64.
+58. Escape caracteres especiais em uma string.
+59. Compare strings com strcmp e strcasecmp.
+60. Use sprintf para formatar strings complexas.
+
+## 5. Manipulação de Arquivos
+
+61. Crie um arquivo de texto e escreva nele.
+62. Leia o conteúdo de um arquivo e exiba na tela.
+63. Adicione conteúdo a um arquivo existente sem sobrescrever.
+64. Verifique se um arquivo existe antes de tentar abri-lo.
+65. Copie um arquivo para outro diretório.
+66. Renomeie um arquivo existente.
+67. Delete um arquivo do sistema.
+68. Leia um arquivo CSV e processe seus dados.
+69. Crie um contador de visitas usando arquivos.
+70. Liste todos os arquivos de um diretório.
+71. Verifique o tamanho de um arquivo.
+72. Crie um sistema simples de upload de arquivos.
+73. Valide o tipo e tamanho de um arquivo antes do upload.
+74. Crie um diretório se ele não existir.
+75. Leia um arquivo linha por linha.
+
+## 6. Sessões e Cookies
+
+76. Inicie uma sessão e armazene dados nela.
+77. Acesse dados de uma sessão em outra página.
+78. Destrua uma sessão e seus dados.
+79. Crie um cookie com tempo de vida.
+80. Acesse o valor de um cookie.
+81. Delete um cookie.
+82. Implemente um sistema simples de login com sessão.
+83. Crie um carrinho de compras usando sessão.
+84. Armazene preferências do usuário em cookies.
+85. Implemente um "Lembrar-me" com cookies.
+86. Regenerar ID de sessão para segurança.
+87. Defina parâmetros de cookie seguros (HttpOnly, Secure).
+88. Limite o tempo de vida de uma sessão.
+89. Armazene arrays em sessões e cookies.
+90. Crie um contador de visitas usando cookies.
+
+## 7. POO (Programação Orientada a Objetos)
+
+91. Crie uma classe Pessoa com propriedades e métodos.
+92. Instancie objetos da classe Pessoa.
+93. Implemente encapsulamento com métodos get e set.
+94. Crie uma hierarquia de herança (ex: Pessoa -> Aluno).
+95. Sobrescreva métodos na classe filha.
+96. Use a palavra-chave final para impedir herança.
+97. Implemente uma interface para classes de pagamento.
+98. Use traits para compartilhar código entre classes.
+99. Organize classes em namespaces.
+100. Implemente polimorfismo com classes abstratas.
+101. Crie métodos estáticos e constantes de classe.
+102. Use autoload para carregar classes automaticamente.
+103. Implemente o padrão Singleton.
+104. Crie uma classe com método mágico __toString.
+105. Use __get e __set para propriedades dinâmicas.
+106. Implemente a interface Iterator para percorrer objetos.
+107. Clone objetos e implemente __clone.
+108. Lance e capture exceções em métodos.
+109. Crie uma classe DateTime personalizada.
+110. Implemente o padrão Factory para criação de objetos.
+
+## Exercícios Combinados (Avançados)
+
+111. Crie um CRUD completo usando POO e arquivos.
+112. Implemente um sistema de blog com sessões.
+113. Desenvolva um conversor de unidades com interface web.
+114. Crie um jogo da forca com PHP.
+115. Implemente uma calculadora científica.
+116. Desenvolva um sistema de enquetes/pesquisas.
+117. Crie um gerador de relatórios em PDF (usando biblioteca).
+118. Implemente uma API REST simples.
+119. Desenvolva um sistema de agendamento com POO.
+120. Crie um simulador de banco com operações básicas.
+121. Implemente um sistema de quiz com pontuação.
+122. Desenvolva um tradutor simples usando arrays.
+123. Crie um sistema de upload com validação e thumbnails.
+124. Implemente um sistema de comentários com sessões.
+125. Desenvolva um calendário dinâmico.
+126. Crie um sistema de autenticação com níveis de acesso.
+127. Implemente um sistema de notícias com categorias.
+128. Desenvolva um gerenciador de tarefas pessoais.
+129. Crie um sistema de reservas para um hotel fictício.
+130. Implemente um jogo da memória com PHP.
+
+## Exercícios de Segurança
+
+131. Valide e sanitize entradas de formulário.
+132. Proteja contra SQL Injection em consultas.
+133. Implemente CSRF tokens em formulários.
+134. Hash de senhas com password_hash().
+135. Valide tipos de arquivo em uploads.
+136. Proteja sessões contra fixation.
+137. Implemente CORS básico para APIs.
+138. Limite tentativas de login.
+139. Escape saída para prevenir XSS.
+140. Use prepared statements em PDO.
+
+## Exercícios com Bancos de Dados (bônus)
+
+141. Conecte-se a um banco MySQL com PDO.
+142. Execute consultas SELECT, INSERT, UPDATE, DELETE.
+143. Implemente um sistema de paginação.
+144. Crie buscas com filtros avançados.
+145. Use transações para operações críticas.
+146. Implemente JOINs entre tabelas.
+147. Crie procedures e functions no banco.
+148. Otimize consultas com índices.
+149. Implemente um sistema de backup simples.
+150. Crie um ORM básico com PHP.
+
+Isso deve te manter ocupado por um bom tempo! Cada exercício pode ser expandido ou combinado com outros para criar desafios ainda mais complexos. A medida que for resolvendo, tente modificar os exercícios para torná-los mais desafiadores ou aplicá-los a cenários reais.
+
+Boa prática e happy coding!
